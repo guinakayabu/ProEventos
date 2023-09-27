@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Back", "Back", "{9EF9C027-08D8-45DA-87BF-CC9890A96931}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D055E70F-F191-4A4A-BB8C-238495FE6FB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProEvenetos.API", "Back\src\ProEventos.API\ProEvenetos.API.csproj", "{32C4DEE3-A51B-4722-9E9A-480AF3CBD1E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32C4DEE3-A51B-4722-9E9A-480AF3CBD1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C4DEE3-A51B-4722-9E9A-480AF3CBD1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C4DEE3-A51B-4722-9E9A-480AF3CBD1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C4DEE3-A51B-4722-9E9A-480AF3CBD1E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D055E70F-F191-4A4A-BB8C-238495FE6FB5} = {9EF9C027-08D8-45DA-87BF-CC9890A96931}
+		{32C4DEE3-A51B-4722-9E9A-480AF3CBD1E9} = {D055E70F-F191-4A4A-BB8C-238495FE6FB5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {577DFA5B-FAD8-42C9-AE5B-C04DFA7427E5}
+	EndGlobalSection
+EndGlobal
